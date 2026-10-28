@@ -1,4 +1,4 @@
-**Blockchain-Based Sustainable Palm Oil Traceability
+**Blockchain-Based Sustainable Palm Oil Traceability**
 
 **Does a permissioned blockchain beat a central database for palm oil traceability, and what does Bloomberg data say about the exposure of Unilever, Nestlé and Wilmar?**
 
