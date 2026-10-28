@@ -1,0 +1,442 @@
+{
+ "entries": [
+  [
+   1,
+   "Executive Summary",
+   4
+  ],
+  [
+   1,
+   "Chapter 1  Introduction and Problem Context",
+   5
+  ],
+  [
+   2,
+   "1.1  The palm oil supply chain challenge",
+   5
+  ],
+  [
+   2,
+   "1.2  Regulatory and Scope 3 risks",
+   5
+  ],
+  [
+   2,
+   "1.3  Research objectives and questions",
+   6
+  ],
+  [
+   2,
+   "1.4  Scope and case-study focus",
+   7
+  ],
+  [
+   1,
+   "Chapter 2  Conceptual Framework",
+   8
+  ],
+  [
+   2,
+   "2.1  Transaction cost economics in procurement",
+   8
+  ],
+  [
+   2,
+   "2.2  Supply-chain resilience and visibility",
+   8
+  ],
+  [
+   2,
+   "2.3  The role of blockchain traceability",
+   8
+  ],
+  [
+   2,
+   "2.4  From concepts to measurable variables",
+   9
+  ],
+  [
+   1,
+   "Chapter 3  Bloomberg Supply Chain Mapping and Baseline Diagnostics",
+   10
+  ],
+  [
+   2,
+   "3.1  Network topology using SPLC",
+   10
+  ],
+  [
+   2,
+   "3.2  Financial health and margin analysis",
+   12
+  ],
+  [
+   2,
+   "3.3  ESG and controversy profiling",
+   14
+  ],
+  [
+   1,
+   "Chapter 4  Predictive Modelling and Empirical Findings",
+   17
+  ],
+  [
+   2,
+   "4.1  The Sustainable Palm Oil Exposure Index (SPOEI)",
+   17
+  ],
+  [
+   2,
+   "4.2  Model specification and methodology",
+   19
+  ],
+  [
+   2,
+   "4.3  Results and feature importance",
+   20
+  ],
+  [
+   1,
+   "Chapter 5  Blockchain Architecture and Financial Stress Testing",
+   22
+  ],
+  [
+   2,
+   "5.1  Proposed permissioned blockchain architecture",
+   22
+  ],
+  [
+   2,
+   "5.2  Simulation design",
+   23
+  ],
+  [
+   2,
+   "5.3  ROI and stress-test results",
+   25
+  ],
+  [
+   1,
+   "Chapter 6  Strategic Recommendations and Managerial Decision Rules",
+   30
+  ],
+  [
+   2,
+   "6.1  Procurement intervention strategies",
+   30
+  ],
+  [
+   2,
+   "6.2  Risk\u2013cost trade-off heat map",
+   31
+  ],
+  [
+   2,
+   "6.3  Managerial decision rules",
+   32
+  ],
+  [
+   1,
+   "Chapter 7  Conclusion",
+   33
+  ],
+  [
+   2,
+   "7.1  Summary of findings",
+   33
+  ],
+  [
+   2,
+   "7.2  Limitations of the study",
+   33
+  ],
+  [
+   2,
+   "7.3  Future outlook",
+   34
+  ],
+  [
+   1,
+   "Appendix A  Bloomberg Data Capture and Query Scripts",
+   35
+  ],
+  [
+   2,
+   "A.1  Capture log (screens used)",
+   35
+  ],
+  [
+   2,
+   "A.2  Reproduction and extension queries (templates, not executed)",
+   35
+  ],
+  [
+   2,
+   "A.3  Panel file for the classifier (spoei_panel.csv)",
+   36
+  ],
+  [
+   1,
+   "Appendix B  Python Simulation Code",
+   37
+  ],
+  [
+   2,
+   "B.1  Cost-benefit and Monte Carlo engine",
+   37
+  ],
+  [
+   2,
+   "B.2  Classifier protocol (notebook Part 5, core functions)",
+   39
+  ],
+  [
+   1,
+   "References",
+   40
+  ]
+ ],
+ "lof": [
+  [
+   "Table 1.1",
+   "RSPO supply-chain models and what each can prove under the EUDR",
+   5
+  ],
+  [
+   "Table 1.2",
+   "Exposure channels and how the model prices them",
+   6
+  ],
+  [
+   "Table 1.3",
+   "Where each research question is answered, and how far the evidence goes",
+   6
+  ],
+  [
+   "Table 1.4",
+   "The three case firms (Bloomberg DES, FA and ESG, 15 October 2026)",
+   7
+  ],
+  [
+   "Table 2.1",
+   "Public versus permissioned blockchains for palm oil",
+   9
+  ],
+  [
+   "Table 2.2",
+   "Operationalisation of the framework",
+   9
+  ],
+  [
+   "Table 3.1",
+   "SPLC network panels (suppliers and customers listed by Bloomberg)",
+   10
+  ],
+  [
+   "Figure 3.1",
+   "How much of the supply base is visible, and what the visible part looks like",
+   10
+  ],
+  [
+   "Figure 3.2",
+   "Wilmar\u2019s visible suppliers: criticality to Wilmar versus Wilmar\u2019s leverage over the supplier",
+   11
+  ],
+  [
+   "Table 3.2",
+   "Wilmar\u2019s largest visible suppliers (SPLC, top 12 of 24 captured)",
+   11
+  ],
+  [
+   "Figure 3.3",
+   "Gross and operating margins, FY2019\u2013FY2025",
+   13
+  ],
+  [
+   "Table 3.3",
+   "Margin and resilience diagnostics, FY2019 \u2192 FY2025",
+   13
+  ],
+  [
+   "Figure 3.4",
+   "Crude palm oil (KOZ6) and equity prices, 17 August \u2013 15 October 2026",
+   14
+  ],
+  [
+   "Figure 3.5",
+   "ESG disclosure score and Scope 1 emissions, 2016\u20132025",
+   15
+  ],
+  [
+   "Table 3.4",
+   "Bloomberg ESG snapshot, 2024 (BESG pillars 0\u201310)",
+   15
+  ],
+  [
+   "Figure 3.6",
+   "Reported Scope 3 emissions and 2024 intensity",
+   15
+  ],
+  [
+   "Table 3.5",
+   "Hand-coded Bloomberg News headlines, 15-Oct-2025 to 15-Oct-2026",
+   16
+  ],
+  [
+   "Figure 3.7",
+   "Timeline of coded headlines for the three firms",
+   16
+  ],
+  [
+   "Table 4.1",
+   "SPOEI indicators, scaling and weights",
+   17
+  ],
+  [
+   "Figure 4.1",
+   "SPOEI indicator scores and index under four weightings",
+   18
+  ],
+  [
+   "Table 4.2",
+   "SPOEI by weighting scheme (0\u2013100; higher = more exposed)",
+   18
+  ],
+  [
+   "Figure 4.2",
+   "What makes Wilmar\u2019s SPOEI higher than Nestl\u00e9\u2019s and Unilever\u2019s",
+   19
+  ],
+  [
+   "Table 4.3",
+   "Model specification",
+   19
+  ],
+  [
+   "Table 4.4",
+   "What the available data can and cannot support",
+   20
+  ],
+  [
+   "Figure 4.3",
+   "Positive events required to detect a given AUC against chance",
+   21
+  ],
+  [
+   "Table 4.5",
+   "Results table to be completed when the panel is available (test window 2024-01 to 2025-09)",
+   21
+  ],
+  [
+   "Figure 5.1",
+   "Permissioned traceability architecture: physical flow, oracle inputs, ledger events and contracts",
+   22
+  ],
+  [
+   "Table 5.1",
+   "Architecture specification",
+   22
+  ],
+  [
+   "Table 5.2",
+   "Global and option parameters (ASSUMPTION)",
+   24
+  ],
+  [
+   "Table 5.3",
+   "Firm profiles and programme costs (ASSUMPTION except revenue and COGS)",
+   24
+  ],
+  [
+   "Table 5.4",
+   "Scenario definitions (multipliers on base risk inputs)",
+   25
+  ],
+  [
+   "Figure 5.2",
+   "PV of total cost by option, base scenario (USD m)",
+   25
+  ],
+  [
+   "Table 5.5",
+   "Base, adverse and severe results (PV over 7 years, USD m)",
+   26
+  ],
+  [
+   "Figure 5.3",
+   "NPV benefit versus the status quo, by firm and scenario",
+   26
+  ],
+  [
+   "Table 5.6",
+   "Discounted payback and break-even in the base scenario",
+   26
+  ],
+  [
+   "Table 5.7",
+   "Monte Carlo, mixed enforcement regimes (20,000 draws, USD m)",
+   27
+  ],
+  [
+   "Figure 5.4",
+   "Distribution of NPV benefit across 20,000 mixed-regime worlds",
+   27
+  ],
+  [
+   "Figure 5.5",
+   "Expected benefit versus downside (5th percentile) of each intervention",
+   28
+  ],
+  [
+   "Figure 5.6",
+   "One-at-a-time sensitivity of the Unilever blockchain NPV",
+   28
+  ],
+  [
+   "Figure 5.7",
+   "Coverage and substitution simulation: PV of supplier-substitution cost",
+   29
+  ],
+  [
+   "Table 5.8",
+   "Effect of the realised fine rate (2% versus the 4% statutory floor for the maximum)",
+   29
+  ],
+  [
+   "Table 6.1",
+   "Interventions assessed and verdicts",
+   30
+  ],
+  [
+   "Table 6.2",
+   "Mean / 5th-percentile NPV benefit by strategy, mixed regimes (USD m)",
+   30
+  ],
+  [
+   "Figure 6.1",
+   "Risk\u2013cost heat map: SPOEI versus economic impact of untraced exposure",
+   31
+  ],
+  [
+   "Table 6.3",
+   "If\u2013then decision rules",
+   32
+  ],
+  [
+   "Table 7.1",
+   "Answers to the research questions",
+   33
+  ],
+  [
+   "Table A.1",
+   "Screens captured on 15-Oct-2026",
+   35
+  ],
+  [
+   "Table A.2",
+   "Panel columns read by notebook Part 5",
+   36
+  ]
+ ],
+ "pages": 41
+}

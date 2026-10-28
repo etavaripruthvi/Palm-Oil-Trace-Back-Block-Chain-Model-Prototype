@@ -1,0 +1,5 @@
+# Optional extras (not needed to run the tests or rebuild the report)
+jupyterlab>=4.0      # to open notebooks/CP45_Palm_Oil_Traceability_Notebook.ipynb interactively
+xgboost>=2.0         # notebook Part 5: gradient-boosting model (falls back to random forest + elastic net without it)
+shap>=0.44           # notebook Part 5: SHAP plots (falls back to grouped permutation importance without it)
+pytest>=8.0          # optional test runner; the tests also run with the standard library: python -m unittest discover -s tests
