@@ -1,4 +1,4 @@
-# CP-45: Blockchain-Based Sustainable Palm Oil Traceability
+Blockchain-Based Sustainable Palm Oil Traceability
 
 **Does a permissioned blockchain beat a central database for palm oil traceability, and what does Bloomberg data say about the exposure of Unilever, Nestlé and Wilmar?**
 
@@ -100,18 +100,4 @@ Pipeline: `src/` model + `data/…Workbook.xlsx` → `data/derived/*.json` → `
 * [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md): workbook sheets, derived JSON files, figures, panel schema
 * [`data/panel/README.md`](data/panel/README.md): how to supply the labelled panel that RQ3 needs
 
-## Team 5
 
-| Member | Contribution |
-|---|---|
-| Bodineni Sai Thanmai | Led project coordination: scope, research questions RQ1-RQ4 and report structure |
-| Pruthvi Teja Etavari | Mapped all three supply chains in Bloomberg SPLC and showed the palm chain is invisible (plantations are only 0.4% of Wilmar's visible cost base) |
-| Vibhaas Chandra | Compiled FY2019-25 financials and the margin and interest-cover analysis (Wilmar gross margin fell from 10.9% to 7.7%) |
-| Aditya Roy | Coded the ESG, Scope 3 and news evidence (22 coded news events; Wilmar has the heaviest adverse record) |
-| Samuel Jebaraj | Led the palm oil and equity market analysis and assembled the final report, workbook and notebook |
-| Venkata Naga Saideep Koutarapu | Led the SPOEI risk index (Wilmar 63.5, Unilever 53.0, Nestlé 39.9) and the database vs blockchain stress test |
-
-## Licence
-
-Source code: MIT, see [`LICENSE`](LICENSE). The licence does **not** cover Bloomberg-derived data (see [`DATA_NOTICE.md`](DATA_NOTICE.md)).
-This is an academic project, not investment, legal or compliance advice.
